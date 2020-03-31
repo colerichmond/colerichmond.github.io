@@ -1,0 +1,45 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.wrapper {
+    background-color: #f6f5f3;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+.top {
+    background-color: #3d3d3f;
+    
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.left {
+    align-items: center;
+    justify-content: center;
+  }
+
+/* 
+Simpler Lime Green: #7dce94
+
+Scuffed Dark Grey: #3d3d3f
+
+Vanilla Grey: #f6f5f3
+
+White-ish: #f9f8fd 
+
+https://hookagency.com/website-color-schemes/
+*/
+
